@@ -1,4 +1,4 @@
-//1-й варіант
+//1st option
 // const items = document.querySelectorAll('.projects-list .project-text');
 // const buttons = document.querySelectorAll('.filter-btn');
 
@@ -84,7 +84,7 @@
 //   });
 // }
 
-// 2-й варіант зі switch
+// 2nd option with switch
 const items = document.querySelectorAll('.projects-list .project-text');
 const buttons = document.querySelectorAll('.filter-btn');
 

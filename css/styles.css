@@ -877,9 +877,10 @@ footer .logo {
   letter-spacing: var(--letter-sp);
   color: var(--dark);
 }
-.cont-text {
+.contacts-location .cont-text {
   color: var(--text);
   line-height: 1.5;
+  text-transform: initial;
 }
 .contacts-location .link {
   line-height: 1.5;
