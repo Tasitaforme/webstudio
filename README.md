@@ -13,6 +13,7 @@
 **Basic functionality:** аdaptive layout, "Mobile First" approach, responsive images, optimized graphics for Retina Display, transform effects, modal window, favicon.
 
 **Skills:** HTML5, CSS and little bit JavaScript.
+
 --------------------------------------------------
 **Індивідуальний проект.**
 
@@ -34,6 +35,7 @@
 - Оптимізація завантаження зображень.
 - Відображення фавікону сторінки.
 - Реалізація модального вікна.
+
 
 
 ## КОРИСНІ ПОСИЛАННЯ
@@ -61,7 +63,7 @@
 
 [**Html Checker**](http://validator.w3.org/nu/)
 
-## Форматування вихідного коду
+### Форматування вихідного коду
 [**Prettier - Code formatter**](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) — розширення Visual Studio Code
 
 
