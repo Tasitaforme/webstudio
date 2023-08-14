@@ -1,0 +1,196 @@
+/* ============= TABLET STYLES ============= */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  /* ============= HEADER ============= */
+  .header {
+    padding-top: 17px;
+    padding-bottom: 16px;
+  }
+  .menu-list {
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    gap: 40px;
+  }
+  .menu-link {
+    position: relative;
+    padding-top: 16px;
+    padding-bottom: 26px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: var(--letter-sp);
+    color: var(--dark);
+
+    transition: color var(--transition-dur) var(--transition-timing-func);
+  }
+
+  .menu-link:hover,
+  .menu-link:focus {
+    color: var(--pressed-state);
+  }
+  .menu-link.active {
+    color: var(--pressed-state);
+  }
+
+  .menu-link.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+
+    border-radius: 2px;
+    background-color: var(--pressed-state);
+  }
+  .contacts {
+    display: flex;
+    margin-left: auto;
+  }
+  .contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .contacts-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    color: var(--text);
+
+    transition: color var(--transition-dur) var(--transition-timing-func);
+  }
+  .contacts-link:hover,
+  .contacts-link:focus {
+    color: var(--pressed-state);
+  }
+  .mobile-menu-open-btn,
+  .mobile-menu {
+    display: none;
+  }
+
+  /* ============= HERO ============= */
+  .hero {
+    padding-bottom: 108px;
+  }
+  .hero-title {
+    margin-bottom: 40px;
+    max-width: 500px;
+
+    font-size: 56px;
+    text-transform: inherit;
+  }
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/hero/hero-bg-desktop-1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/hero/hero-bg-desktop-2x.jpg);
+    }
+  }
+  /* ============= ADVANTAGES + TEAM ============= */
+  .advantages-item,
+  .team-item {
+    flex-basis: calc((100% - 1 * 24px) / 2);
+  }
+  .advantages-list {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .team-list {
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+  /* ============= CUSTOMERS ============= */
+  .customers-list {
+    column-gap: 24px;
+  }
+  .customers-item {
+    flex-basis: calc((100% - 2 * 24px) / 3);
+  }
+  /* ============= FOOTER ============= */
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-logo-wrapper {
+    margin-right: 24px;
+  }
+  .footer-text {
+    max-width: 264px;
+  }
+  .subscribe-form {
+    display: flex;
+  }
+  .subscribe-form-input {
+    margin-right: 24px;
+  }
+  .subscribe-form-input {
+    width: 264px;
+  }
+  .subscribe-btn {
+    display: flex;
+    margin-top: 0;
+  }
+
+  /* ============= PAGE PORTFOLIO ============= */
+  .projects {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .filter-list {
+    margin-bottom: 64px;
+    gap: 24px;
+    justify-content: center;
+  }
+  .projects-list {
+    flex-direction: row;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+  .projects-list-item {
+    flex-basis: calc((100% - 1 * 24px) / 2);
+  }
+
+  /* ============= MODAL WINDOW ============= */
+  .modal {
+    width: 408px;
+    /* min-height: 586px; */
+  }
+
+  /* ============= PAGE CONTACTS ============= */
+  .contacts-location {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .contacts-location .wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+  }
+  .contacts-location img {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .team-container,
+  .customers-container,
+  .footer-container {
+    width: 588px;
+  }
+}

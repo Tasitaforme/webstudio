@@ -1,0 +1,62 @@
+/* ============= MOBILE STYLES ============= */
+@media screen and (min-width: 425px) {
+
+    .mobile-menu .social-list {
+        gap: 56px;
+    }    
+    .mobile-menu-tel {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 428px;
+    }
+    .modal {
+        width: 392px;
+    }
+    .mobile-menu-tel {
+        font-size: 36px;
+    }
+
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-bg-tablet-1x.jpg);
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-bg-tablet-2x.jpg);
+        }
+    }
+}
+
+
+
+/* ============= MOBILE STYLES (only) ============= */
+
+
+@media screen and (max-width: 767px) {
+    .advantages-title {
+        text-align: center;
+    }
+    .team-container {
+        max-width: 300px;
+    }
+    .footer-container {
+        text-align: center;
+        align-content: center;
+        align-items: center;
+    }
+    
+     .subscribe-form-input {
+        width: 100%;
+    }
+    
+    .footer-subscribe-wrapper {
+        width: 100%;
+    }
+
+
+}
