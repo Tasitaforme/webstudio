@@ -1,19 +1,31 @@
 ![preview-hw](/gh-hw-preview.jpg)
 # WEBSTUDIO (website)
 **Individual project.**
+
 **Role:** developer.
+
 **Title:** WebStudio.
+
 **Description:** business card site for a web studio.
+
 **Target:** website development according to the design layout.
+
 **Basic functionality:** аdaptive layout, "Mobile First" approach, responsive images, optimized graphics for Retina Display, transform effects, modal window, favicon.
+
 **Skills:** HTML5, CSS and little bit JavaScript.
 --------------------------------------------------
 **Індивідуальний проект.**
+
 **Роль:** розробник.
+
 **Назва:** WebStudio.
+
 **Опис:** сайт візитка для веб-студії.
+
 **Ціль:** розробка сайту згідно [дизайн-макету](<https://www.figma.com/file/7DbgmHW2lcF0Cxkrr1Hrg7/Web-Studio-goit-markup-hw-(Version-3.0)?type=design&node-id=297046%3A1554&mode=design&t=nwh54MzAvT9AgDUL-1>)..
+
 **Навички:** HTML5, CSS і трішки JavaScript.
+
 **Базовий функціонал:**
 - Верстка адаптивна, виконана щодо трьох точок перелому: 428px, 768px і 1160px.
 - При написанні стилів використаний підхід `Mobile First.
@@ -24,18 +36,18 @@
 - Реалізація модального вікна.
 
 
-
+## КОРИСНІ ПОСИЛАННЯ
 ### Генерація SVG-спрайту
 
-[**Icomoon**](https://icomoon.io/).
+[**Icomoon**](https://icomoon.io/)
 
 ### Оптимізація створеного SVG-спрайту
 
-[**svgomg**](https://jakearchibald.github.io/svgomg/).
+[**svgomg**](https://jakearchibald.github.io/svgomg/)
 
 ### Стандарти написання коду
 
-[**Code Guide**](https://codeguide.co/).
+[**Code Guide**](https://codeguide.co/)
 
 ### Нормалізатор стилів
 
@@ -43,17 +55,17 @@
 
 ### Оптимізація зображень
 
-[**squoosh**](https://squoosh.app/).
+[**squoosh**](https://squoosh.app/)
 
 ### HTML-валідатор
 
 [**Html Checker**](http://validator.w3.org/nu/)
 
 ## Форматування вихідного коду
-Розширення Visual Studio Code — [**Prettier - Code formatter**](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+[**Prettier - Code formatter**](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) — розширення Visual Studio Code
 
 
-## Пам'ятка по проекту
+## ПАМ'ЯТКА ПО ПРОЕКТУ
 
 ### Притискання футеру до низу сторінки HTML CSS FLEX
 
@@ -111,7 +123,10 @@ main {
 ```
 
 `(min-width: 900px) 600px` - при ширині в'юпорту від 900px, розмір зображення 600px.
-`(min-width: 600px) 300px` - при ширині в'юпорту від 600px, розмір зображення 300px. `100vw` - повна
+
+`(min-width: 600px) 300px` - при ширині в'юпорту від 600px, розмір зображення 300px. 
+
+`100vw` - повна
 ширина в'юпорту (значення за замовчуванням, яке вказується останнім).
 
 ### Респонсивний елемент <picture> (атрибут srcset)
@@ -188,9 +203,7 @@ Cлід пам'ятати, що якщо медіа-запит визначає�
 }
 ```
 
-### Медіа-запити
-
-`(min-width: ) and (max-width: )`
+### Медіа-запити (min-width: ) і (max-width: )
 
 ```css
 .container {
