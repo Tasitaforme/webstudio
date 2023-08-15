@@ -6,13 +6,13 @@
 
 **Title:** WebStudio.
 
-**Description:** business card site for a web studio.
+**Description:** three-page business card site for a web studio.
 
 **Target:** website development according to the design layout.
 
 **Basic functionality:** аdaptive layout, "Mobile First" approach, responsive images, optimized graphics for Retina Display, transform effects, modal window, favicon.
 
-**Skills:** HTML5, CSS and little bit JavaScript.
+**Skills:** HTML5, CSS and a little bit JavaScript.
 
 --------------------------------------------------
 **Індивідуальний проект.**
@@ -21,7 +21,7 @@
 
 **Назва:** WebStudio.
 
-**Опис:** сайт візитка для веб-студії.
+**Опис:** тристорінковий сайт візитка для веб-студії.
 
 **Ціль:** розробка сайту згідно [дизайн-макету](<https://www.figma.com/file/7DbgmHW2lcF0Cxkrr1Hrg7/Web-Studio-goit-markup-hw-(Version-3.0)?type=design&node-id=297046%3A1554&mode=design&t=nwh54MzAvT9AgDUL-1>)..
 
